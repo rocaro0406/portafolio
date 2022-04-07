@@ -7,7 +7,7 @@
 .bar-btn {
     font-size: 25px;
     color: rgba(217, 198, 198, 0.95);
-    margin-right: 20px;
+    margin: 20px;
     cursor: pointer;
 }
 
@@ -17,7 +17,7 @@
     height: 0vh;
     top: 100px;
     background: rgba(217, 198, 198, 0.95);
-    text-align: center;
+    text-align: right;
     transition: all .5s;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .nav-menu li a:hover {
-    color: aqua;
+    color: rgb(72, 89, 89);
     transition: .3s;
 }
 

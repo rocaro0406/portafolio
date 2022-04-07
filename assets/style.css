@@ -8,12 +8,12 @@
 
 body {
     font-family: "Hurricane", "josefin-Sans";
+    background: #DCDCDC;
 }
 
 header {
     width: 100%;
     height: 100vh;
-    background: #DCDCDC;
 }
 
 nav {
