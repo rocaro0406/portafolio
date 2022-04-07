@@ -34,3 +34,19 @@
     height: 300px;
     align-items: center;
 }
+
+
+/*responsive for desktop*/
+
+@media screen and (min-width: 768px) {
+    .aboutMe {
+        width: 60%;
+    }
+    .menu-redes {
+        align-items: center;
+    }
+    .img {
+        align-content: space-between;
+        text-align: left;
+    }
+}
