@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Josefin+Sans:ital,wght@1,200&family=Lobster&family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap');
+.headerName {
+    width: 350px;
+    margin-left: 10px;
+}
+
+.bar-btn {
+    font-size: 25px;
+    color: rgba(217, 198, 198, 0.95);
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.nav-menu {
+    position: fixed;
+    width: 100%;
+    height: 0vh;
+    top: 100px;
+    background: rgba(217, 198, 198, 0.95);
+    text-align: center;
+    transition: all .5s;
+}
+
+.nav-menu li {
+    display: none;
+    line-height: 30px;
+    margin: 50px 0;
+    transition: all .5s;
+}
+
+.nav-menu li a {
+    color: azure;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nav-menu li a.active,
+.nav-menu li a:hover {
+    color: aqua;
+    transition: .3s;
+}
+
+#check {
+    display: none;
+}
+
+#check:checked~.nav-menu {
+    height: 100vh;
+}
+
+#check:checked~.nav-menu li {
+    display: block;
+}
+
+
+/*responsive for desktop*/
+
+@media screen and (min-width: 768px) {
+    .headerName {
+        margin-left: 50px;
+    }
+    nav {
+        height: 100px;
+    }
+    .bar-btn {
+        display: none;
+    }
+    .nav-menu {
+        position: relative;
+        height: 100px;
+        top: 0;
+        transition: none;
+        text-align: right;
+        width: 650px;
+    }
+    .nav-menu li {
+        display: inline-block;
+        line-height: 100px;
+        margin: 0 20px;
+        transition: none;
+    }
+    .nav-menu li a {
+        font-size: 12px
+    }
+}
