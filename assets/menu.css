@@ -16,7 +16,6 @@
     width: 100%;
     height: 0vh;
     top: 100px;
-    background: rgba(217, 198, 198, 0.95);
     text-align: center;
     transition: all .5s;
 }
