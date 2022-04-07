@@ -1,0 +1,36 @@
+            .aboutMe {
+                width: 75%;
+                height: 350px;
+                margin: 35px;
+                padding: 20px;
+                border: 30px;
+                font-size: 35px;
+            }
+            
+            .aboutMe h2 {
+                font-size: 50px;
+                text-align: center;
+            }
+            
+            .menu-redes li {
+                float: left;
+                line-height: 100px;
+                margin: 0 20px;
+                transition: none;
+            }
+            
+            .menu-redes li a {
+                font-size: 25px
+            }
+            
+            .myphoto {
+                width: 75%;
+                height: 350px;
+                align: right;
+            }
+            
+            .myphoto img {
+                border-radius: 50%;
+                width: 300px;
+                height: 300px;
+            }
