@@ -1,0 +1,21 @@
+.aboutMe .title {
+    width: 90%;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+    font-size: 30px;
+}
+
+.aboutMe .sectionMe {
+    font-size: 30px;
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+
+/*responsive for desktop*/
+
+@media screen and (min-width: 768px) {
+    .aboutMe {
+        height: none;
+    }
+}

@@ -23,3 +23,8 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+
+.aboutMe {
+    width: 100%;
+    background: rgb(196, 196, 240);
+}
