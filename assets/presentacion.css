@@ -33,6 +33,9 @@
         border-radius: 50%;
         width: 200px;
         height: 200px;
+        box-shadow: 11px 14px 19px 0px rgba(91, 20, 166, 0.75);
+        -webkit-box-shadow: 11px 14px 19px 0px rgba(91, 20, 166, 0.75);
+        -moz-box-shadow: 11px 14px 19px 0px rgba(91, 20, 166, 0.75);
     }
     /*responsive for desktop*/
     

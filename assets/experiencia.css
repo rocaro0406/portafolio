@@ -1,0 +1,15 @@
+    .experience h2 {
+        position: static;
+        width: 752px;
+        height: 406px;
+        left: 0px;
+        top: 0px;
+        background: url(codigo-secreto.png);
+        border-radius: 0px;
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 0px 16px;
+    }

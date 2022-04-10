@@ -1,22 +1,21 @@
-.formacion__titulo h2 {
+.hobbies h2 {
     width: 90%;
     text-align: center;
     margin: auto;
     padding: 10px 10px 10px 10px;
-    font-size: 30px;
+    font-size: 30px
 }
 
-.conteiner .formacion {
+.hobbies .container {
     width: 100%;
     height: 80%;
-    background: #EAF2FD;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
-    gap: 1em;
 }
 
-.formacion .container .skill {
+.hobbies .container .hobbie {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1em;
     background: #ffff;
     margin: 30px 30px 30px 30px;
     text-align: center;
@@ -26,20 +25,14 @@
     -moz-box-shadow: 11px 14px 19px 0px rgba(91, 20, 166, 0.75);
 }
 
-.skills-formacion .container .skill img {
-    width: 80px;
-    height: 80px;
+.hobbies .container .hobbie img {
+    width: 50px;
+    height: 50px;
     margin: 10px;
 }
 
-.skills-formacion .container .skill h4 {
-    text-align: center;
+.hobbies .container .hobbie h4 {
     font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.skills-formacion .container .skill p {
-    font-size: 16px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -47,12 +40,12 @@
 /*responsive for desktop*/
 
 @media screen and (min-width: 768px) {
-    .skills-formacion .container {
+    .hobbies .container {
         width: 100%;
         height: 80%;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: 1fr;
+        grid-template-rows: none;
         gap: 1em;
     }
 }
