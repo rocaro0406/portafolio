@@ -9,27 +9,24 @@
 .skills .container {
     width: 100%;
     height: 80%;
+    display: grid;
+    grid-template-columns: repeat (4, 1fr);
+    grid-template-rows: 1fr;
+    text-align: center;
+    gap: 1em;
 }
 
 .skills .container .skill {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 1em;
+    text-align: center;
     background: #ffff;
     margin: 30px 30px 30px 30px;
-    text-align: center;
-    align-items: center;
-    box-shadow: 11px 14px 19px 0px rgba(91, 20, 166, 0.75);
-    -webkit-box-shadow: 11px 14px 19px 0px rgba(91, 20, 166, 0.75);
-    -moz-box-shadow: 11px 14px 19px 0px rgba(91, 20, 166, 0.75);
+    box-shadow: 11px 14px 19px 0px rgba(91, 20, 166, 0.75)
 }
 
 .skills .container .skill img {
-    width: 100px;
-    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
     margin: 10px;
-    text-align: center;
 }
 
 .skills .container .skill h4 {
