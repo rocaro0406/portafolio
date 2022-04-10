@@ -26,9 +26,15 @@ nav {
 
 .aboutMe {
     width: 100%;
-    background: rgb(196, 196, 240);
+    background: #cbdcf5;
+    ;
 }
 
 .skills {
     width: 100%;
+}
+
+.formaciones {
+    width: 100%;
+    background: #cbdcf5;
 }
