@@ -1,40 +1,85 @@
-* {
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: "Hurricane", "josefin-Sans";
-    background: #DCDCDC;
-}
-
-header {
-    width: 100%;
-    height: 80px;
-}
-
-nav {
-    height: 100px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.aboutMe {
-    width: 100%;
-    background: #cbdcf5;
-    ;
-}
-
-.skills {
-    width: 100%;
-}
-
-.formaciones {
-    width: 100%;
-    background: #cbdcf5;
-}
+                    * {
+                    padding: 0;
+                    margin: 0;
+                    text-decoration: none;
+                    list-style: none;
+                    box-sizing: border-box;
+                }
+                
+                body {
+                    font-family: "Hurricane", "josefin-Sans";
+                    background: #DCDCDC;
+                }
+                
+                header {
+                    width: 100%;
+                    height: 80px;
+                }
+                
+                nav {
+                    height: 100px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+                
+                .aboutMe {
+                    width: 100%;
+                    background: #cbdcf5;
+                }
+                
+                .skills {
+                    width: 100%;
+                }
+                
+                .formaciones {
+                    width: 100%;
+                    background: #cbdcf5;
+                }
+                
+                .proyectos {
+                    width: 100%;
+                    text-align: center;
+                }
+                
+                .proyectos h2 {
+                    text-align: center;
+                    font-size: 50px;
+                }
+                
+                .proyectos .experience img {
+                    width: 400px;
+                    height: 200px;
+                    padding: 50px;
+                }
+                
+                .proyectos .experience button {
+                    width: 130px;
+                    height: 30px;
+                    background: none;
+                    border-radius: 10px;
+                    font-family: "Hurricane", "josefin-Sans";
+                    font-size: 25px;
+                }
+                
+                footer {
+                    height: 80px;
+                    text-align: center;
+                }
+                /*responsive for desktop*/
+                
+                @media screen and (min-width: 768px) {
+                    .proyectos .experience .encriptador {
+                        display: grid;
+                        grid-template-columns: 60% 40%;
+                    }
+                    .proyectos .experience img {
+                        width: 600px;
+                        height: 400px;
+                    }
+                    .proyectos .experience .botones {
+                        width: 100%;
+                        height: 50%;
+                        margin-top: 200px;
+                    }

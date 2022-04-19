@@ -63,14 +63,9 @@
         grid-template-rows: 1fr;
     }
     .formaciones .container .formacion__contenido h4 {
-        margin: none;
-        text-align: center;
         font-size: 19px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     .formaciones .container .formacion__contenido p {
         font-size: 14px;
-        text-align: center;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 }
