@@ -1,15 +1,15 @@
 .formulario {
     width: 100%;
-    height: 650px;
+    height: 900px;
     background: #EAF2FD;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
 }
 
 .formulario img {
-    width: 80%;
-    height: 80%;
-    margin: 50px 0 0 60px;
+    width: 100%;
+    height: 50%;
+    margin: 30px 30px 30px 30px;
 }
 
 .formulario .datos {
@@ -33,5 +33,22 @@
 }
 
 footer {
+    margin-top: 30px;
     font-size: 20px;
+}
+
+
+/*responsive for desktop*/
+
+@media screen and (min-width: 768px) {
+    .formulario {
+        width: 100%;
+        height: 650px;
+        grid-template-columns: 50% 50%;
+    }
+    .formulario img {
+        width: 80%;
+        height: 80%;
+        margin: 50px 0 0 60px;
+    }
 }
