@@ -49,8 +49,8 @@
                     }
                     
                     .proyectos .experience img {
-                        width: 400px;
-                        height: 200px;
+                        width: 500px;
+                        height: 400px;
                         padding: 50px;
                     }
                     
@@ -72,7 +72,7 @@
                     @media screen and (min-width: 768px) {
                         .proyectos .experience .encriptador {
                             display: grid;
-                            grid-template-columns: 60% 40%;
+                            grid-template-columns: 50% 50%;
                         }
                         .proyectos .experience img {
                             width: 600px;
