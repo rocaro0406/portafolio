@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./assets/hobbies.css">
     <link rel="stylesheet" href="./assets/formacion.css">
     <link rel="stylesheet" href="./assets/formulario.css">
+    <link rel="stylesheet" href="./formmulario.js">
     <title>PORTAFOLIO</title>
 </head>
 
@@ -263,16 +264,18 @@
         <div class="imagen">
             <img src="./imagenes/R.jpg" alt="">
         </div>
-        <form action="" class="datos">
+        <form action="" name="formulario" id="form" class="datos">
             <h1>Contacto</h1>
             <p>¿Quieres contactarme?</p>
             <p>Complete el siguiente formulario y me pondre en contacto con usted lo antes posible.</p>
-            <input type="text" name="nombre" placeholder="Nombre">
-            <input type="text" name="email" placeholder="Correo">
-            <input type="text" name="asunto" placeholder="Asunto">
-            <input class="mensaje" type="text" name="mensaje" placeholder="Escriba aqui su mensaje">
-            <button class="enviar" type="submit">Enviar mensaje</button>
+            <input type="text" name="name" id="nombre" placeholder="Escribe tu nombre" title="Nombre solo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+            <input type="email" name="email" id="email" placeholder="Correo" title="Email incorrecto" pattern=" ^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+            <input type="text" name="subject" id="asunto" placeholder="Asunto a tratar" title="El asunto es requerido" required>
+            <textarea name="comments" cols="70" rows="9" placeholder="Escriba aqui su mensaje" data-pattern="^.{1,255}$" title="Tu mensaje no debe exceder los 250 caracteres" required></textarea>
+            <input class="enviar" type="submit" name="btn" onclick="capturar"></input>
+
         </form>
+
     </section>
 
     <footer>
